@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 0px;
+    background-color: green;
+    height: 100px;
+}
+
+.treeNav {
+    margin-top: 8em;
+    height: 800px;
+    width: auto;
+}
+
+.treeImage {
+    margin: auto;
+    padding-top: 2em;
+    height: 800px;
+    width: 50%;
+}
