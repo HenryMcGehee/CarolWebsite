@@ -11,10 +11,17 @@ header {
 
 .banner {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15em;
     height: 10em;
     padding-top: 1em;
+}
+
+.def {
+    display: block;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .treeNav {
@@ -26,7 +33,8 @@ header {
 
 .treeImage {
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 2em;
     height: 800px;
     width: 50%;
@@ -52,46 +60,47 @@ header {
 .topLeft {
     position: absolute;
     top: 10em;
-    left: 100px;
+    left: 150px;
 }
 
 .topCenter {
     position: absolute;
-    top: 1em;
-    left: 50%;
+    margin-left: 45%;
+    top: 3em;
 }
 
 .topRight {
     position: absolute;
     top: 10em;
-    right: 100px;
+    right: 150px;
 }
 
 .middleLeft {
     position: absolute;
-    top: 25em;
+    top: 22em;
     left: 16px;
 }
 
 .middleRight {
     position: absolute;
-    top: 25em;
+    top: 22em;
     right: 16px;
 }
 
 .bottomLeft {
     position: absolute;
-    top: 42em;
+    top: 36em;
     left: 50px;
 }
 
 .bottomRight {
     position: absolute;
-    top: 42em;
+    top: 36em;
     right: 50px;
 }
 
 footer{
+    margin: 0px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -99,4 +108,8 @@ footer{
     text-align: center;
     padding-top: 2em;
     padding-bottom: 2em;
+}
+
+a:hover {
+    background-color: green;
 }
