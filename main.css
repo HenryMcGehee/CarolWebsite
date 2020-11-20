@@ -40,6 +40,11 @@ header {
     width: 50%;
 }
 
+.bg{
+    background-image: url(./Images/ground2.jpg);
+    background-position: 50% 63%;
+}
+
 .treeContainer {
     display: block;
     margin-top: 15em;
